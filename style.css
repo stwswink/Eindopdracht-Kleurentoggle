@@ -1,0 +1,121 @@
+body { 
+    background-color: grey;
+    font-family: sans-serif;
+}
+
+.text {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.burger {
+    cursor: pointer;
+    background-color:yellow;
+}
+
+.burger:hover {
+    opacity: 0.5;
+}
+
+ul {
+    transition: all 3s ease-in-out;
+}
+
+.menu {
+    width: 100px;
+    padding: 0;
+    margin-top: 0;
+    line-height: 70px;
+    list-style-type: none;
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.home {
+    margin-bottom: 7px;
+    border: solid 5px grey;
+}
+
+.home:hover {
+    color: white;
+    cursor: pointer;
+    background-color: grey;
+}
+
+.background-home {
+    background-color: grey;
+}
+
+.red {
+    margin-bottom: 7px;
+    border: solid 5px red;
+}
+
+.red:hover {
+    color: white;
+    cursor: pointer;
+    background-color: red;
+}
+
+.background-red {
+    background-color: red;
+}
+
+.orange {
+    margin-bottom: 7px;
+    border: solid 5px orange;
+    
+}
+
+.orange:hover {
+    color: white;
+    cursor: pointer;
+    background-color: orange;
+}
+
+.background-orange {
+    background-color: orange;
+}
+
+.purple {
+    margin-bottom: 7px;
+    border: solid 5px purple;  
+}
+
+.purple:hover {
+    color: white;
+    cursor: pointer;
+    background-color: purple;
+    
+}
+
+.background-purple {
+    background-color: purple;
+}
+
+.green {
+    margin-bottom: 7px;
+    border: solid 5px green;
+}
+
+.background-green {
+    background-color: green;
+}
+
+.green:hover {
+    color: white;
+    cursor: pointer;
+    background-color: green;
+}
+
+.radio {
+    cursor: pointer;
+}
+
+.radio:hover input ~ .checkmark {
+    background-color: white;
+}
